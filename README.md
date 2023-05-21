@@ -25,11 +25,11 @@
 2. Create .env file in backend folder
    contents of the file
    ```env
-      MYSQL_HOST=""  
-      MYSQL_USER=""
-      MYSQL_PASSWORD=""
-      MYSQL_DATABASE=""
-      SECRET_KEY=""
+      MYSQL_HOST=""       # mysql host
+      MYSQL_USER=""       # mysql user
+      MYSQL_PASSWORD=""   # mysql password
+      MYSQL_DATABASE=""   # mysql database name
+      SECRET_KEY=""       # secret key to hash password
 
 ## Installation
 
