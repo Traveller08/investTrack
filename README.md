@@ -10,7 +10,7 @@
 1. Insert historical_prices data to database
    
    ### Create table
-   ```bash
+   ```sql
       create table historicalPrices ( id int not null, date datetime, price int, instrument_name varchar(255) not null, primary key(id, instrument_name) );
    
    ### insert data from historical_prices.csv to database
