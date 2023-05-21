@@ -23,7 +23,7 @@
       SET GLOBAL local_infile=1;
       
 2. Create .env file in backend folder
-   contents of the file
+   ## contents of the file
    ```env
       MYSQL_HOST=""       # mysql host
       MYSQL_USER=""       # mysql user
