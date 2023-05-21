@@ -14,6 +14,10 @@
    
    # insert data from historical_prices.csv to database
    load data local  infile '..path to file..../historical_prices.csv' into table historicalPrices  fields terminated by ',' lines terminated by '\n' ignore 1 rows;
+   
+   # if the above command throws an error run the below command and restart mysql-server
+   SET GLOBAL local_infile=1;
+
 
 ## Installation
 
