@@ -6,6 +6,7 @@ import Register from './components/register/Register';
 import HomePage from './components/homepage/Homepage';
 import { useState, useEffect } from 'react';
 import Dashboard from './components/dashboard/Dashboard';
+import Profile from './components/profile/Profile';
 import Cookies from 'js-cookie';
 function App() {
   const [user, setUser] = useState(false);
@@ -39,6 +40,7 @@ function App() {
         />
         <Route exact path='/login' element={<> <Login setUser={handleUser} /></>}/>
         <Route exact path='/register' element={<> <Register /></>}/>
+        <Route exact path='/profile' element={<> <Profile /></>}/>
       </Routes>
     </div>
     </Router>
