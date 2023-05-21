@@ -50,7 +50,7 @@
 4. Start the backend server:
    ```bash
    cd ../backend
-   npm start
+   node indx.js
 
 6. Start the frontend development server:
    ```bash
